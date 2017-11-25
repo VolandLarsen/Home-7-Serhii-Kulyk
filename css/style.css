@@ -52,7 +52,7 @@ li.nav-li {
 
 /*main section*/
 
-li.main-article {
+.main-article {
     list-style-type: none;
 }
 
@@ -311,7 +311,7 @@ li.main-article {
 }
 
 .element-list {
-    padding: 0 auto;
+    padding: 20px;
 
 }
 
@@ -448,7 +448,7 @@ li.main-article {
 .footer-info {
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 100px;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
