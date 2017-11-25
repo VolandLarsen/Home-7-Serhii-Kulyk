@@ -1,12 +1,12 @@
 body {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -34,10 +34,11 @@ li.nav-li {
 
 .nav {
     text-decoration: none;
-    margin: 15px;
+    margin: 10px;
     color: #31353e;
     font-size: 20px;
-    padding: 10px 25px;
+    padding: 10px 15px;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -60,6 +61,7 @@ li.main-article {
     padding: 0;
     height: auto;
     vertical-align: middle;
+    min-height: 700px;
 }
 
 .main-article {
@@ -71,13 +73,14 @@ li.main-article {
 }
 
 .main {
+    max-height: 1000px;
     position: relative;
 }
 
 .header-info {
     position: absolute;
     left: 0;
-    bottom: 100px;
+    bottom: 50px;
     width: 100%;
     margin: 0 auto;
 }
@@ -93,6 +96,7 @@ li.main-article {
 }
 
 .header1 {
+    font-family: 'Roboto Slab', serif;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     color: #ffffff;
     text-align: center;
@@ -101,6 +105,7 @@ li.main-article {
 }
 
 .header1p {
+    font-family: 'Roboto Slab', serif;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     color: #ffffff;
     text-align: center;
@@ -115,9 +120,11 @@ li.main-article {
 
 .p-img {
     line-height: 2;
+    font-family: 'Roboto', sans-serif;
 }
 
 .read-more {
+    font-family: 'Roboto Slab', serif;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #ffffff;
@@ -125,7 +132,6 @@ li.main-article {
     color: #612316;
     font-size: 20px;
     padding: 10px 25px;
-
 }
 
 .read-more:hover {
@@ -146,6 +152,7 @@ li.main-article {
 }
 
 .header2 {
+    font-family: 'Roboto Slab', serif;
     text-align: center;
     color: #31353e;
     font-size: 30px;
@@ -172,15 +179,19 @@ li.main-article {
 }
 
 .news-img-head {
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
     margin: 25px;
 }
 
 .p-img-news {
     line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
 }
 
 .read {
+    font-family: 'Roboto', serif;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #ffffff;
@@ -214,12 +225,14 @@ li.main-article {
 .news-form {
     position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 20px;
     width: 100%;
     margin: 0 auto;
 }
 
 .news-head {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0;
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -227,30 +240,71 @@ li.main-article {
 
 .latter-p {
     color: #ffffff;
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
 
 .newslatter-form {
+    width: 100%;
+    text-align: center;
     margin: 0 auto;
-
+    display: inline-block;
 }
 
+.form-list {
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    color: #4e5159;
+    padding: 0;
+}
 
+.form-li {
+    float: left;
+    list-style-type: none;
+}
 
+.submit {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #ffffff;
+    border-radius: 27px;
+    color: #4e5159;
+    font-size: 20px;
+    padding: 10px 35px;
+    display: inline-block;
+}
 
+.submit:hover {
+    cursor: pointer;
+    background-color: #dd4b2b;
+    transition: background-color 0.5s;
+    color: #ffffff;
+}
 
-
-
-
-
-
+.email {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 27px;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+}
 
 /*product section*/
 
 .main-product-list {
-    padding: 0 auto;
+    padding: 0;
 
 }
 
@@ -259,36 +313,23 @@ li.main-article {
 
 }
 
-li.main-product-li {
+.main-product-li {
     list-style-type: none;
     padding: 0;
     margin: 20px auto;
 }
 
-li.product-li {
+.product-li, .product-li-img {
      list-style-type: none;
-    padding: 0;
-    margin: 20px auto;
+    padding: 20px 0 20px 0;
+    margin: 30px auto;
  }
 
-li.product-li-img {
+.product-li2, .product-li-img2 {
     list-style-type: none;
-    padding: 0;
+    padding: 20px 0 20px 0;
     margin: 20px auto;
 }
-
-li.product-li2 {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px auto;
-}
-
-li.product-li-img2 {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px auto;
-}
-
 
 .product-li, .product-li-img {
     width: 50%;
@@ -314,11 +355,12 @@ li.product-li-img2 {
 
 .product-img {
     width: 500px;
-    height: auto;
+    height: 300px;
     border: 1px solid #dbdbdb;
 }
 
 .product-header {
+    font-family: 'Roboto Slab', serif;
     color: #191b29;
     font-size: 30px;
     margin: 0;
@@ -329,9 +371,11 @@ li.product-li-img2 {
     color: #191b29;
     font-size: 16px;
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 
 .product-signup {
+    font-family: 'Roboto Slab', serif;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #4b4e73;
@@ -352,8 +396,86 @@ li.product-li-img2 {
 
 /* section footer*/
 
-li.footer-li {
+.footer-section {
+    background-color: #d75d0e;
+    margin: 0 auto;
+}
+
+.footer-li, .foot-li {
     list-style-type: none;
+    margin: 10px 0;;
+}
+
+.footer-li {
+    float: left;
+    text-align: center;
+}
+
+.footer-ul {
+    text-align: center;
     padding: 0;
-    margin: 0;
+    display: inline-block;
+}
+
+.a-list {
+    padding: 0;
+    text-align: center;
+    margin: 50px;
+}
+
+.list-container {
+    text-align: center;
+
+}
+
+.footer-a {
+    font-family: 'Roboto', serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-a:hover {
+    color: #000000;
+}
+
+/* footer*/
+
+.background-img3 {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-info {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-text {
+    font-family: 'Roboto', serif;
+    width: 640px;
+    margin: 0 auto;
+}
+
+.a-footer {
+    font-family: 'Roboto', serif; /*Font-family "Proxima Nova" is need to be paid */
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.a-footer:hover {
+    opacity: 0.5;
 }
