@@ -121,6 +121,8 @@ li.main-article {
 .p-img {
     line-height: 2;
     font-family: 'Roboto', sans-serif;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .read-more {
@@ -187,7 +189,7 @@ li.main-article {
 .p-img-news {
     line-height: 2;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
+    padding: 10px 30px;
 }
 
 .read {
@@ -320,42 +322,33 @@ li.main-article {
 }
 
 .product-li, .product-li-img {
-     list-style-type: none;
-    padding: 20px 0 20px 0;
-    margin: 30px auto;
- }
-
-.product-li2, .product-li-img2 {
-    list-style-type: none;
-    padding: 20px 0 20px 0;
-    margin: 20px auto;
-}
-
-.product-li, .product-li-img {
     width: 50%;
     float: left;
     box-sizing: border-box;
     margin: 0;
     display: inline-block;
-}
-
-.product-img {
-    width: 400px;
-    height: auto;
-    border: 2px solid #dbdbdb;
-}
-
-.product-li2, .product-li-img2 {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    margin: 0;
-    display: inline-block;
+    padding: 0 50px ;
 }
 
 .product-img {
     width: 500px;
-    height: 300px;
+    height: auto;
+    border: 2px solid #dbdbdb;
+
+}
+
+.product-li2, .product-li-img2 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0;
+    display: inline-block;
+    padding: 0 50px ;
+}
+
+.product-img2 {
+    width: 500px;
+    height: auto;
     border: 1px solid #dbdbdb;
 }
 
@@ -364,10 +357,10 @@ li.main-article {
     color: #191b29;
     font-size: 30px;
     margin: 0;
-    padding-top: 10px;
 }
 
 .product-p {
+    padding: 0;
     color: #191b29;
     font-size: 16px;
     line-height: 1.5;
@@ -384,7 +377,7 @@ li.main-article {
     font-size: 18px;
     padding: 10px 60px;
     display: inline-block;
-    margin-top: 10px;
+
 }
 
 .product-signup:hover {
