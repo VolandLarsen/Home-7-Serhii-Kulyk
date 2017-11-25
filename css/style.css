@@ -321,7 +321,7 @@ li.nav-li {
     font-size: 18px;
 }
 
-.email:-moz-placeholder { /* Firefox 18- */
+.email:-moz-placeholder {
     color: #ffffff;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
