@@ -15,6 +15,7 @@ body {
     display: block;
     clear: both;
 }
+
 /*header section*/
 
 .logo {
@@ -40,7 +41,6 @@ li.nav-li {
     padding: 10px 15px;
     font-family: 'Roboto Slab', serif;
 }
-
 
 .nav:hover {
     text-decoration: none;
@@ -331,12 +331,10 @@ li.nav-li {
 
 .main-product-list {
     padding: 0;
-
 }
 
 .element-list {
     padding: 20px;
-
 }
 
 .main-product-li {
@@ -351,14 +349,13 @@ li.nav-li {
     box-sizing: border-box;
     margin: 0;
     display: inline-block;
-    padding: 0 50px ;
+    padding: 0 50px;
 }
 
 .product-img {
     width: 500px;
     height: auto;
     border: 2px solid #dbdbdb;
-
 }
 
 .product-li2, .product-li-img2 {
@@ -367,7 +364,7 @@ li.nav-li {
     box-sizing: border-box;
     margin: 0;
     display: inline-block;
-    padding: 0 50px ;
+    padding: 0 50px;
 }
 
 .product-img2 {
@@ -401,7 +398,6 @@ li.nav-li {
     font-size: 18px;
     padding: 10px 60px;
     display: inline-block;
-
 }
 
 .product-signup:hover {
@@ -442,7 +438,6 @@ li.nav-li {
 
 .list-container {
     text-align: center;
-
 }
 
 .footer-a {
