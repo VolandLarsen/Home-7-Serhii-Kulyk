@@ -297,10 +297,34 @@ li.nav-li {
     border: none;
     background-color: transparent;
     border-radius: 27px;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     padding: 10px 30px;
     display: inline-block;
+}
+
+.email::-webkit-input-placeholder {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.email::-moz-placeholder {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.email:-ms-input-placeholder {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.email:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
 }
 
 /*product section*/
